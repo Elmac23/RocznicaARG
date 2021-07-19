@@ -1,4 +1,4 @@
-﻿* {
+* {
     padding: 0;
     margin: 0;
     box-sizing:border-box;
@@ -48,4 +48,33 @@ input[type=submit]{
     width:25%;
     margin: 0 auto;
     margin-top:25px;
+}
+
+@media (max-width:768px){
+
+    .flex{
+        display:block;
+        flex-direction:column;
+    }
+
+    .element {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+        .element:first-child {
+            margin-left: 0;
+        }
+
+        .element:last-child {
+            margin-right: 0;
+        }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    .centered{
+        width:90%;
+    }
 }
