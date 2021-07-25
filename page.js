@@ -10,7 +10,7 @@ function SubmitKeys() {
     let keySequence = key1 + key2 + key3 + key4 + key5;
 
     if (keySequence === "skarbbporsch3albo2k0cham37mix0") {
-        location.href = 'https://elmac23.github.io/RocznicaARG/';
+        location.href = 'https://youtu.be/WRyneJXo_Pg';
     }
 
 }
